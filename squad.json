@@ -1,0 +1,51 @@
+{
+    "players": [
+    {   
+        "name": "Shane Prendergast",
+        "rating": "10"
+    },
+    {   
+        "name": "Ant Stirton",
+        "rating": "6"
+    },
+    {   
+        "name": "Pritesh Taylor",
+        "rating": "5"
+    },
+    {   
+        "name": "Vinny Mac",
+        "rating": "6"
+    },
+    {   
+        "name": "Rick Read",
+        "rating": "5"
+    },
+    {   
+        "name": "Oli Taylor",
+        "rating": "7"
+    },
+    {   
+        "name": "Parisa Shandy",
+        "rating": "4"
+    },
+    {   
+        "name": "Brett Cooper",
+        "rating": "7"
+    },
+    {   
+        "name": "Dan Davies",
+        "rating": "4"
+    },
+    {   
+        "name": "Adam Keyon",
+        "rating": "8"
+    },
+    {   
+        "name": "Ash Ince",
+        "rating": "5"
+    },
+    {   
+        "name": "Scott Parsloe",
+        "rating": "6"
+    }]
+}
