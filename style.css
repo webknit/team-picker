@@ -1,25 +1,23 @@
-/*
-Errno::ENOENT: No such file or directory - assets/SASS/style.scss
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}caption,th{text-align:left;}q:before,q:after{content:'';}abbr,acronym{border:0;}
 
-Backtrace:
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:369:in `read'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:369:in `update_stylesheet'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:221:in `watch'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/plugin.rb:108:in `method_missing'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/exec.rb:509:in `watch_or_update'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/exec.rb:346:in `process_result'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/exec.rb:43:in `parse'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/lib/sass/exec.rb:22:in `parse!'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/gems/sass-3.3.8/bin/sass:13:in `<top (required)>'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/bin/sass:23:in `load'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/bin/sass:23:in `<main>'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `eval'
-/Users/shane.prendergast/.rvm/gems/ruby-2.0.0-p451/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - assets/SASS/style.scss"; }
+.main-body {
+	margin: 2em auto 0;
+	max-width: 1000px;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.initial-players,
+.selected-players,
+.picked-team {
+	float: left;
+	min-width: 495px;
+	width: 495px;
+}
+
+.pick-the-team,
+.picked-team {
+	display: none;
+}
